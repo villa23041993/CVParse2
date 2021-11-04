@@ -1,0 +1,74 @@
+﻿@model CVParse2.Models.ProfilModel
+
+@{
+    ViewBag.Title = "Parsing";
+}
+
+<h2>Parsing</h2>
+
+<div>
+    <h4>ProfilModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ort)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ort)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirmaPosition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirmaPosition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zusammenfassung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zusammenfassung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Erfahrung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Erfahrung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Skill)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Skill)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
